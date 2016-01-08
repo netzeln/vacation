@@ -10,7 +10,7 @@
   </head>
   <body>
 
-    <div class="navbar navbar-default">
+    <div class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <a class="navbar-brand text-muted site-title" href="#">Visit Paris</a>
           <div class="collapse navbar-collapse">
@@ -23,12 +23,12 @@
               <li><a href="http://getbootstrap.com/css/#buttons">Links</a></li>
                </ul>
             </li>
-          </ul>            
+          </ul>
           </div>
         </div>
       </div>
 
-    <div class="container">
+    <div class="container topjumbo">
 
     <div class="jumbotron">
       <p class="lead">labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -49,10 +49,11 @@
        <!-- Wrapper for slides -->
        <div class="carousel-inner" role="listbox">
          <div class="item active">
-           <img src="images/city.jpg" alt="Paris!">
+
            <div class="carousel-caption">
             <p> Paris</p>
            </div>
+           <img src="images/city.jpg" alt="Paris!">
          </div>
          <div class="item">
            <img src="images/city2.jpg" alt="Paris?">
@@ -74,15 +75,15 @@
        </a>
      </div>
 </div>
-
+    <div class="container">
       <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 column-red">
             <h3>History</h3>
             <p>
              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
           </div>
-          <div  class="col-md-4"id="Restaurants">
+          <div class="col-md-4 column-white" id="Restaurants">
             <h3>Restaurants</h3>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -90,7 +91,7 @@
 
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 column-blue">
             <h3>Activities</h3>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -99,13 +100,13 @@
         </div>
 
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 column-color2">
             <h4>Lodging</h4>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ."</p>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6 column-color2">
             <h4>Nightlife</h4>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ."</p>
@@ -113,6 +114,7 @@
        </div>
       </div>
     </div>
+  </div>
 
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
